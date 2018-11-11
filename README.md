@@ -22,10 +22,6 @@ Application is divided into 2 modules:
 - **connector.async-executor.queueCapacity**: size of the thread queue
 *default value*: *50*
 
-connector.async-executor.corePoolSize: 5
-connector.async-executor.maxPoolSize: 20
-connector.async-executor.queueCapacity: 40
-
 ### Build
 Application can be build with maven:
 ***mvn clean package***
